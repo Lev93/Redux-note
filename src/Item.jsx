@@ -1,25 +1,32 @@
-/* eslint-disable react/prefer-stateless-function, jsx-a11y/anchor-is-valid */
-
 import React from 'react';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux';
+import thunk from 'redux-thunk';
+import { createStore, applyMiddleware, compose } from 'redux';
+import reducers from './reducers';
+import App from './components/App';
+import { fetchTasks } from './actions';
 
-class Item extends React.Component {
-	render() {
-    const { text, id, change, state } = this.props;
-    if (state === "finished") {
-      return <div className="row">
-        <div className="col-1">{id}</div>
-        <div className="col">
-          <s><a href="#" className="todo-task" onClick={change(id)}>{text}</a></s>
-        </div>
-      </div>
-    } else {
-		return <div className="row">
-      <div className="col-1">{id}</div>
-      <div className="col">
-        <a href="#" className="todo-task" onClick={change(id)}>{text}</a>
-      </div>
-    </div>
-    }
-	}
-} 
-export default Item; 
+/* eslint-disable no-underscore-dangle */
+const ext = window.__REDUX_DEVTOOLS_EXTENSION__;
+const devtoolMiddleware = ext && ext();
+/* eslint-enable */
+
+const store = createStore(
+  reducers,
+  compose(
+    // BEGIN (write your solution here)
+    applyMiddleware(thunk),
+    // END
+    devtoolMiddleware,
+  ),
+);
+
+store.dispatch(fetchTasks());
+
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  document.getElementById('container'),
+);

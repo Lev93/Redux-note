@@ -1,8 +1,19 @@
 const host = '';
 
+// Create new task
+// POST /tasks
+// { task: { text: 'your text' } }
+
+// Get List Of Tasks
+// GET /tasks
+
+// Get Task
+// GET /tasks/:id
+
+// Remove Task
+// DELETE /tasks/:id
+
 export default {
-  tasksPath: () => [host, 'tasks'].join('/'),
-  taskPath: (id) => [host, 'tasks', id].join('/'),
-  finishTaskPath: (id) => [host, 'tasks', id, 'finish'].join('/'),
-  activateTaskPath: (id) => [host, 'tasks', id, 'activate'].join('/'),
+  tasksUrl: () => [host, 'tasks'].join('/'), // get tasks list
+  taskUrl: (id) => [host, 'tasks', id].join('/'),
 };

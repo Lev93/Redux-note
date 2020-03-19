@@ -1,21 +1,24 @@
 {
-    "dependencies": {
-      "react": "*",
-      "react-dom": "*",
-      "lodash": "*",
-      "enzyme": "*",
-      "axios": "*",
-      "immutability-helper": "*",
-      "@babel/polyfill": "*",
-      "nock": "*",
-      "timeout-then": "*",
-      "enzyme-adapter-react-16": "*"
-    },
-    "jest": {
-      "snapshotSerializers": ["enzyme-to-json/serializer"]
-    },
-    "scripts": {
-      "test": "jest --colors"
-    }
+  "dependencies": {
+    "lodash": "*",
+    "redux": "*",
+    "redux-form": "*",
+    "redux-actions": "*",
+    "react": "*",
+    "axios": "*",
+    "nock": "*",
+    "react-redux": "*",
+    "redux-thunk": "*",
+    "enzyme": "*",
+    "timeout-then": "*",
+    "enzyme-adapter-react-16": "*",
+    "react-dom": "*",
+    "reselect": "*"
+  },
+  "jest": {
+    "snapshotSerializers": ["enzyme-to-json/serializer"]
+  },
+  "scripts": {
+    "test": "jest --colors"
   }
-  
+}
