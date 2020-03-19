@@ -1,0 +1,388 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TodoBox 1 1`] = `
+<div>
+  <div
+    class="mb-3"
+  >
+    <form
+      class="todo-form form-inline mx-3"
+    >
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control mr-3"
+          placeholder="I am going..."
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        add
+      </button>
+    </form>
+  </div>
+</div>
+`;
+
+exports[`TodoBox 1 2`] = `
+<div>
+  <div
+    class="mb-3"
+  >
+    <form
+      class="todo-form form-inline mx-3"
+    >
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control mr-3"
+          placeholder="I am going..."
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        add
+      </button>
+    </form>
+  </div>
+  <div
+    class="todo-active-tasks"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        1
+      </div>
+      <div
+        class="col"
+      >
+        <a
+          class="todo-task"
+          href="#"
+        >
+          new task
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TodoBox 1 3`] = `
+<div>
+  <div
+    class="mb-3"
+  >
+    <form
+      class="todo-form form-inline mx-3"
+    >
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control mr-3"
+          placeholder="I am going..."
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        add
+      </button>
+    </form>
+  </div>
+  <div
+    class="todo-active-tasks"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        2
+      </div>
+      <div
+        class="col"
+      >
+        <a
+          class="todo-task"
+          href="#"
+        >
+          new task 2
+        </a>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        1
+      </div>
+      <div
+        class="col"
+      >
+        <a
+          class="todo-task"
+          href="#"
+        >
+          new task
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TodoBox 2 1`] = `
+<div>
+  <div
+    class="mb-3"
+  >
+    <form
+      class="todo-form form-inline mx-3"
+    >
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control mr-3"
+          placeholder="I am going..."
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        add
+      </button>
+    </form>
+  </div>
+  <div
+    class="todo-active-tasks"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        1
+      </div>
+      <div
+        class="col"
+      >
+        <a
+          class="todo-task"
+          href="#"
+        >
+          task 1
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="todo-finished-tasks"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        2
+      </div>
+      <div
+        class="col"
+      >
+        <s>
+          <a
+            class="todo-task"
+            href="#"
+          >
+            task 2
+          </a>
+        </s>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TodoBox 2 2`] = `
+<div>
+  <div
+    class="mb-3"
+  >
+    <form
+      class="todo-form form-inline mx-3"
+    >
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control mr-3"
+          placeholder="I am going..."
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        add
+      </button>
+    </form>
+  </div>
+  <div
+    class="todo-finished-tasks"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        2
+      </div>
+      <div
+        class="col"
+      >
+        <s>
+          <a
+            class="todo-task"
+            href="#"
+          >
+            task 2
+          </a>
+        </s>
+      </div>
+    </div>
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        1
+      </div>
+      <div
+        class="col"
+      >
+        <s>
+          <a
+            class="todo-task"
+            href="#"
+          >
+            task 1
+          </a>
+        </s>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`TodoBox 2 3`] = `
+<div>
+  <div
+    class="mb-3"
+  >
+    <form
+      class="todo-form form-inline mx-3"
+    >
+      <div
+        class="form-group"
+      >
+        <input
+          class="form-control mr-3"
+          placeholder="I am going..."
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
+      <button
+        class="btn btn-primary"
+        type="submit"
+      >
+        add
+      </button>
+    </form>
+  </div>
+  <div
+    class="todo-active-tasks"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        2
+      </div>
+      <div
+        class="col"
+      >
+        <a
+          class="todo-task"
+          href="#"
+        >
+          task 2
+        </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="todo-finished-tasks"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col-1"
+      >
+        1
+      </div>
+      <div
+        class="col"
+      >
+        <s>
+          <a
+            class="todo-task"
+            href="#"
+          >
+            task 1
+          </a>
+        </s>
+      </div>
+    </div>
+  </div>
+</div>
+`;

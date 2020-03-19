@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+      "react": "*",
+      "react-dom": "*",
+      "lodash": "*",
+      "enzyme": "*",
+      "axios": "*",
+      "immutability-helper": "*",
+      "@babel/polyfill": "*",
+      "nock": "*",
+      "timeout-then": "*",
+      "enzyme-adapter-react-16": "*"
+    },
+    "jest": {
+      "snapshotSerializers": ["enzyme-to-json/serializer"]
+    },
+    "scripts": {
+      "test": "jest --colors"
+    }
+  }
+  
